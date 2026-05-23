@@ -122,6 +122,11 @@ button {
 /* ============================================
        Sidebar Navigation
        ============================================ */
+
+
+
+
+
 .sidebar {
 	position: fixed;
 	top: 20px;
@@ -558,6 +563,16 @@ box-shadow:
 	margin-bottom: 0.5rem;
 	letter-spacing: -0.03em;
 }
+.hero__subtitle2 {
+	font-size: clamp(1.2rem, 6vw,2rem);
+	font-weight: 700;
+	color: var(--navy);
+	margin-bottom: 0.5rem;
+	letter-spacing: -0.03em;
+}
+
+
+
 
 .hero__title em {
 	color: var(--terracotta);
