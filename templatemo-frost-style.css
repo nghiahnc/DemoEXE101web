@@ -42,7 +42,7 @@ https://templatemo.com/tm-613-frost-bakery
 	--font-heading: 'Lora', Georgia, serif;
 	--font-body: 'Manrope', 'Segoe UI', sans-serif;
 
-	--sidebar-width: 260px;
+	--sidebar-width: 300px;
 	--section-pad: clamp(3rem, 6vw, 6rem);
 	--gap: clamp(1rem, 2.5vw, 2rem);
 
@@ -135,7 +135,17 @@ button {
 
 	width: var(--sidebar-width);
 
-	background: rgb(77, 102, 240);
+	/* background: linear-gradient(
+    to bottom right,
+    #7c5cff,
+    #4f7cff
+); */
+background: linear-gradient(
+        135deg,
+        #4f7cff 0%,
+        #4f7cff 50%,
+        #7c5cff 100%
+    );
 	backdrop-filter: blur(14px);
 
 	color: var(--cream);
@@ -169,6 +179,12 @@ button {
 
   box-shadow: 0 14px 40px rgba(0,0,0,0.18);
 }
+
+.product2{
+	padding: 4%;
+}
+
+
 
 .custom-btn{
   display: flex;
@@ -227,7 +243,7 @@ button {
 
 .sidebar__tagline {
 	font-size: 0.75rem;
-	font-weight: 400;
+	font-weight: 700;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	color: var(--sage-light);
@@ -237,6 +253,7 @@ button {
 .sidebar__nav {
 	flex: 1;
 	padding: 1.5rem 0;
+	  font-weight: 7800;
 }
 
 .sidebar__nav ul {
@@ -251,7 +268,7 @@ button {
 	gap: 0.75rem;
 	padding: 0.75rem 1.5rem;
 	font-size: 0.9rem;
-	font-weight: 500;
+	font-weight: 1000;
 	color: rgba(244, 241, 222, 0.65);
 	transition: all 0.3s var(--ease-out);
 	position: relative;
@@ -468,6 +485,8 @@ button {
 
 	border-radius: 24px;
 
+    
+   
 
 
 	overflow: hidden;
@@ -1109,6 +1128,7 @@ box-shadow:
 
 .cart-card__body {
 	padding: 1.5rem;
+	background-color: #EBF2FF;
 }
 
 .cart-card__name {
