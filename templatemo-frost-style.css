@@ -246,7 +246,7 @@ background: linear-gradient(
 	font-weight: 700;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	color: var(--sage-light);
+	color: #422aa6;
 	margin-top: 0.35rem;
 }
 
@@ -328,12 +328,12 @@ background: linear-gradient(
 
 .sidebar__hours {
 	font-size: 0.78rem;
-	color: rgba(244, 241, 222, 0.5);
+	color:#422aa6;
 	line-height: 1.6;
 }
 
 .sidebar__hours strong {
-	color: var(--sage-light);
+	color: #422aa6;
 	font-weight: 600;
 }
 
@@ -701,7 +701,7 @@ box-shadow:
 }
 
 .btn--sage {
-	background: var(--sage);
+	background: linear-gradient(135deg, var(--blue), var(--purple));;
 	color: #fff;
 }
 
