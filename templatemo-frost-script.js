@@ -19,36 +19,8 @@ https://templatemo.com/tm-613-frost-bakery
       const overlay     = document.getElementById('sidebarOverlay');
       const navLinks    = sidebar.querySelectorAll('.sidebar__nav a');
 
-      function openMenu() {
-        sidebar.classList.add('is-open');
-        overlay.style.display = 'block';
-        hamburger.classList.add('is-active');
-        hamburger.setAttribute('aria-expanded', 'true');
-        // Trigger reflow for transition
-        requestAnimationFrame(function () {
-          overlay.classList.add('is-visible');
-        });
-      }
 
-      function closeMenu() {
-        sidebar.classList.remove('is-open');
-        overlay.classList.remove('is-visible');
-        hamburger.classList.remove('is-active');
-        hamburger.setAttribute('aria-expanded', 'false');
-        setTimeout(function () {
-          overlay.style.display = 'none';
-        }, 300);
-      }
 
-      hamburger.addEventListener('click', function () {
-        if (sidebar.classList.contains('is-open')) {
-          closeMenu();
-        } else {
-          openMenu();
-        }
-      });
-
-      overlay.addEventListener('click', closeMenu);
 
       // Close mobile menu when a nav link is clicked
       navLinks.forEach(function (link) {
